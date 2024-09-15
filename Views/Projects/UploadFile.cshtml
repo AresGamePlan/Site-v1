@@ -1,0 +1,8 @@
+﻿@model ProjectAndCad
+
+<a asp-action="Project" class="btn btn-secondary" asp-route-Id="@Model.project.Id">Back</a>
+
+<form asp-action="UploadFile" asp-route-Id="@Model.project.Id" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Загрузить отчет</button>
+</form>

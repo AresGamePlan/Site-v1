@@ -1,0 +1,9 @@
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.csproj.AssemblyReference.cache
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.AssemblyInfoInputs.cache
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.AssemblyInfo.cs
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.csproj.CoreCompileInputs.cache
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.RazorAssemblyInfo.cache
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.RazorAssemblyInfo.cs
+C:\Users\Ares\Desktop\Projects\ASP-dlya-Contori\ASP dlya Contori\obj\Debug\net6.0\ASP dlya Contori.sourcelink.json

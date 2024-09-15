@@ -1,0 +1,41 @@
+﻿@model ProjectAndCad
+
+<a asp-action="Index" class="btn btn-secondary">Back</a>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<h1>@Model.project.Name</h1>
+<p>Description:@Model.project.Description</p>
+
+@if (User.IsInRole("manager"))
+{
+<form asp-controller="CADFiles" asp-action="UploadFile" asp-route-Id="@Model.Id" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Загрузить файл</button>
+</form>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя файла</th>
+            <th>Дата загрузки</th>
+            <th>Действие</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (CADFile file in Model.file)
+        {
+            <tr>
+                <td>@file.FileName</td>
+                <td>@file.UploadData</td>
+                <td>
+                    <a href="@Url.Action("DownloadFile", "CADFiles", new { fileName = file.FileName })"><button>Скачать</button></a>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <a href="@Url.Action("DeleteFile", "CADFiles", new { id = file.Id })
+                        " onclick="return confirm('Вы уверены, что хотите удалить этот файл?');">Удалить</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

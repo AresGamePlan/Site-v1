@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.button
+
+{
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    border: none;
+    color: white; /* Белый цвет текста */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Скругленные углы */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Анимация при наведении */
+}
+
+    .button:hover {
+        background-color: #45a049; /* Изменение фона при наведении */
+        transform: scale(1.05); /* Легкое увеличение */
+    }
+
+    .button:active {
+        background-color: #3e8e41; /* Темный цвет при нажатии */
+        transform: scale(0.98); /* Легкое уменьшение */
+    }
+}
+
+#nav-bar {
+    background-color: #2012c7;
+}
