@@ -3,4 +3,9 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Ares\Desktop\Site</_PublishTargetUrl>
+    <History>True|2024-09-30T03:46:01.8167540Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
 </Project>

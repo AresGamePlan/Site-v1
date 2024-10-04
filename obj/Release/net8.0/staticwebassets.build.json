@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yM3vS3PHEhtMsIZ3m5JPubIrrdHffChU8JdVb2UucrU=",
+  "Hash": "AH0GgFQqE9zG9nsbWzrd5W8Or3Y6mQ185iQEsjKqSbY=",
   "Source": "Identity",
   "BasePath": "_content/Identity",
   "Mode": "Default",
@@ -1193,44 +1193,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\wwwroot\\uploads\\tire.stl",
-      "SourceId": "Identity",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\wwwroot\\",
-      "BasePath": "_content/Identity",
-      "RelativePath": "uploads/tire.stl",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\tire.stl"
-    },
-    {
-      "Identity": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\wwwroot\\uploads\\Реферат для ПО.docx",
-      "SourceId": "Identity",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\wwwroot\\",
-      "BasePath": "_content/Identity",
-      "RelativePath": "uploads/Реферат для ПО.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Реферат для ПО.docx"
     }
   ]
 }

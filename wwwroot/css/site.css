@@ -1,53 +1,143 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e0cbf6; /*#e0cbf6*/ /*gray: #8b8b8b*/
 }
-.button
 
-{
-    background-color: #4CAF50; /* Зеленый цвет фона */
-    border: none;
-    color: white; /* Белый цвет текста */
-    padding: 15px 32px;
+header {
+    background: #6f138b; /*#6f138b*/ /*gray: #333*/
+    color: #fff;
+    padding: 20px;
     text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+
+        nav a:hover {
+            background: #ad2584; /*#ad2584*/ /*gray: #555*/
+        }
+
+.project-title {
+    font-size: 24px;
+}
+
+.button {
+    background: #007bff;
+    color: #fff;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
-    cursor: pointer;
-    border-radius: 8px; /* Скругленные углы */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Анимация при наведении */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-left: 10px;
 }
 
     .button:hover {
-        background-color: #45a049; /* Изменение фона при наведении */
-        transform: scale(1.05); /* Легкое увеличение */
+        background: #0056b3;
     }
 
-    .button:active {
-        background-color: #3e8e41; /* Темный цвет при нажатии */
-        transform: scale(0.98); /* Легкое уменьшение */
-    }
+.container-create {
+    margin: 0;
+    padding: 0; /* Высота на всю страницу */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#nav-bar {
-    background-color: #2012c7;
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%; /* Ширина на 100% */
 }
+
+    .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+    .input-field label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .input-field input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+        .input-field input:focus {
+            border-color: #6f138b;
+            outline: none;
+        }
+
+.submit-button {
+    background: #2262bb;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+    .submit-button:hover {
+        background: #c30000;
+    }
+
+.table-container {
+    max-width: 800px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(90, 90, 90);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    color: white;
+}
+
+thead {
+    background-color: #6f138b;
+    color: white;
+}
+
+tbody tr {
+    border-bottom: 1px solid #460736;
+}
+
+    tbody tr:hover {
+        background-color: #ad2584;
+    }
+    /*
+    tbody tr:nth-child(even) {
+        background-color: #8b8b8b;
+    }*/

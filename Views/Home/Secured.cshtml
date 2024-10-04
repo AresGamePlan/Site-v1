@@ -4,10 +4,22 @@
     ViewData["Title"] = "Authentication";
 }
 
-<h1 class="bg-info text-white">Secured</h1>
-@Model
+<div class="container-create">
+    <h1 class="bg-info text-white">Secured</h1>
+</div>
+
+<div class="container-create">
+    <p> </p>
+</div>
+
+<div class="container-create">
+    @Model
+</div>
+
 
 @if (User?.Identity?.IsAuthenticated ?? false)
 {
-    <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    <div class="container-create">
+        <a class="button" asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
 }

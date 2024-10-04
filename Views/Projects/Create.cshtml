@@ -4,39 +4,66 @@
     ViewData["Title"] = "CREATE PROJECT";
 }
 
-<h1 class="bg-info text-white">Create a Project</h1>
-<a asp-action="Index" class="btn btn-secondary">Back</a>
+<div class="container-create">
+    <h1 class="bg-info text-white">Create a Project</h1>
+</div>
+
+<div class="container-create">
+    <p> </p>
+</div>
+
+
+<div class="container-create">
+    <a class="button" asp-action="Index" class="btn btn-secondary">Back</a>
+</div>
+
 <div asp-validation-summary="All" class="text-danger"></div>
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label for="Name">Name:</label>
-        <input name="Name" class="form-control" />
-        <label for="Description">Description</label>
-        <input name="Description" class="form-control" />
+<div class="container-create">
+    <form asp-action="Create" method="post">
+        <div class="form-group">
 
-        <table class="table table-sm table-bordered">
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Employer</th>
-            </tr>
-            @foreach (AppUser project in Model)
-            {
-                <tr>
-                    <td>@project.Id</td>
-                    <td>@project.UserName</td>
-                    <td>@project.Email</td>
-                    <td><input type="checkbox" name="EmailEmployer" value="@project.Email" /></td>
-                </tr>
-            }
-            <a asp-action="Create" class="btn btn-secondary">
-                    <button>Create</button>
-            </a>
-        </table>
+            <div class="input-field">
+                <label for="Name">Name:</label>
+                <input name="Name" class="form-control" />
+            </div>
+            <div class="input-field">
+                <label for="Description">Description</label>
+                <input name="Description" class="form-control" />
+            </div>
 
-    </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-</form>
+            <div class="container-create">
+                <a class="button" asp-action="Create" class="btn btn-secondary">
+                    Create
+                </a>
+            </div>
+
+            <div class="container-create">
+                <p> </p>
+            </div>
+
+            <div class="table-container">
+                <table class="table">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Employer</th>
+                    </tr>
+                    @foreach (AppUser project in Model)
+                    {
+                        <tr>
+                            <td>@project.Id</td>
+                            <td>@project.UserName</td>
+                            <td>@project.Email</td>
+                            <td><input type="checkbox" name="EmailEmployer" value="@project.Email" /></td>
+                        </tr>
+                    }
+                </table>
+            </div>
+
+        </div>
+        <button type="submit" class="submit-button">Create</button>
+    </form>
+</div>
 
