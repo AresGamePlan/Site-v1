@@ -4286,11 +4286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\Identity.csproj",
+      "projectUniqueName": "D:\\28.02.2025\\Projects\\ASP-dlya-Contori\\Identity\\Identity.csproj",
       "projectName": "Identity",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\Identity.csproj",
+      "projectPath": "D:\\28.02.2025\\Projects\\ASP-dlya-Contori\\Identity\\Identity.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\Projects\\Identity\\Identity\\obj\\",
+      "outputPath": "D:\\28.02.2025\\Projects\\ASP-dlya-Contori\\Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

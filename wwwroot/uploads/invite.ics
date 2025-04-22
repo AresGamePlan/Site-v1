@@ -1,0 +1,120 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Qyzylorda Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0500
+TZOFFSETTO:+0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0500
+TZOFFSETTO:+0500
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Kuznetsova, Darya D":mailto:darya.kuznetsova@qarmet.kz
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Siranov, A
+ lmas B":mailto:Almas.Siranov@qarmet.kz
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=nikitasaho
+ v33@gmail.com:mailto:nikitasahov33@gmail.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Ziyasheva,
+  Aizhan K":mailto:Aizhan.Ziyasheva@qarmet.kz
+ATTACH:CID:E2C5C3652B905845B2592E09A6AC4EE9@EURP195.PROD.OUTLOOK.COM
+DESCRIPTION;LANGUAGE=ru-RU:\n______________________________________________
+ __________________________________\nMicrosoft Teams Нужна помощ
+ ь?<https://aka.ms/JoinTeamsMeeting?omkt=ru-RU>\nПрисоединить
+ ся к собранию<https://teams.microsoft.com/l/meetup-join/19%3ame
+ eting_ZDVlZGNlMTMtOWViZS00NGQ2LThhZGItMDA0YjAyODMwNWEw%40thread.v2/0?conte
+ xt=%7b%22Tid%22%3a%22edbc752f-64df-46db-9e11-6c0f5e6f0ecd%22%2c%22Oid%22%3
+ a%22ccd3dc2f-13c4-4413-86ea-852fbe0eb704%22%7d>\nИдентификато
+ р собрания: 490 584 356 756\nСекретный код: 5KWoSo\n_
+ _______________________________\nДля организаторов: Пар
+ аметры собрания<https://teams.microsoft.com/meetingOptions/?
+ organizerId=ccd3dc2f-13c4-4413-86ea-852fbe0eb704&tenantId=edbc752f-64df-46
+ db-9e11-6c0f5e6f0ecd&threadId=19_meeting_ZDVlZGNlMTMtOWViZS00NGQ2LThhZGItM
+ DA0YjAyODMwNWEw@thread.v2&messageId=0&language=ru-RU>\n___________________
+ _____________________________________________________________\n\n---------
+ -----------------------------------------------------------------\n*** Con
+ fidentiality notice ***\nThis email\, as well as any attachments to it\, m
+ ay contain confidential or privileged information and is intended for your
+  knowledge only. Please do not share this information with other Parties.\
+ nIf you are not intended recipient\, please notify the sender without dela
+ y and delete this email.\nAny unauthorized use\, copying\, dissemination\,
+  forwarding or printing is strictly prohibited.\n\n*** Уведомлен
+ ие о конфиденциальности ***\nЭто электрон
+ ное письмо\, а также любые вложения к нем
+ у могут содержать конфиденциальную инфо
+ рмацию и предназначены исключительно дл
+ я Вас.\nПожалуйста\, не делитесь этой инфо
+ рмацией с третьими лицами. Если Вы не явл
+ яетесь предполагаемым получателем\, пож
+ алуйста\, немедленно сообщите об этом от
+ правителю и удалите это письмо.\nЛюбое не
+ санкционированное использование\, копир
+ ование\, распространение\, пересылка или 
+ печать строго запрещены.\n\n*** Құпия ақпар
+ ат туралы ескерту ***\nБұл электрондық хат
+ \, сондай-ақ оның тіркемелерінде құпия ақ
+ парат болуы мүмкін және тек Сізге ғана а
+ рналған.\nБұл ақпаратпен үшінші тараптар
+ мен бөліспеуіңізді сұраймыз.Егер Сіз бо
+ лжамды алушы болмасаңыз\, жіберушіге дер
+ еу хабарлаңыз және осы хатты жойыңыз.\nРұ
+ қсатсыз пайдалануға\, көшіруге\, таратуғ
+ а\, жіберуге немесе басып шығаруға қатаң 
+ тыйым салынады.\n--------------------------------------------
+ ------------------------------\n
+UID:040000008200E00074C5B7101A82E0080000000078C56CE30CDCDA01000000000000000
+ 0100000001A677C6537DCC245AB4B46710710DEAC
+SUMMARY;LANGUAGE=ru-RU:Собеседование (Шахов Никита)
+DTSTART;TZID=Qyzylorda Standard Time:20240722T150000
+DTEND;TZID=Qyzylorda Standard Time:20240722T153000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240722T080042Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=ru-RU:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2122822264
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZDVlZGNlMTMtOWViZS00NGQ2LThhZGItMDA0YjAyODMwNWEw%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22edbc752f-64df-46db-9e11-6c0f5e6f0ecd%22%2c%22O
+ id%22%3a%22ccd3dc2f-13c4-4413-86ea-852fbe0eb704%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/edbc752f-64df-46db-9e11-6c0f5e6f0ecd/ccd3dc2f-13c4-4413-86ea-8
+ 52fbe0eb704/19_meeting_ZDVlZGNlMTMtOWViZS00NGQ2LThhZGItMDA0YjAyODMwNWEw@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZDVlZGNlMTMtOWViZS00NGQ
+ 2LThhZGItMDA0YjAyODMwNWEw@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-TEAMSMEETINGCONTEXTID:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-MEETINGAGENDA:
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
