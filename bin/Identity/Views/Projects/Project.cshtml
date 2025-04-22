@@ -1,0 +1,55 @@
+﻿@model ProjectAndCad
+
+<div class="container-create"><a asp-action="Index" class="button">Back</a></div>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<div class="container-create"><h1>@Model.project.Name</h1></div>
+<div class="container-create"><p>Description:@Model.project.Description</p></div>
+
+<div class="container-create"><p> </p></div>
+
+
+<div class="container-create">
+    @if (User.IsInRole("manager"))
+    {
+        <form asp-controller="CADFiles" asp-action="UploadFile" asp-route-Id="@Model.Id" method="post" enctype="multipart/form-data">
+            <div class="input-field">
+                <input class="button" type="file" name="file" />
+            </div>
+            <div class="input-field">
+                <button class="button" type="submit">Загрузить файл</button>
+            </div>
+        </form>
+    }
+</div>
+
+<div class="container-create"><p> </p></div>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Имя файла</th>
+                <th>Дата загрузки</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CADFile file in Model.file)
+            {
+                <tr>
+                    <td>@file.FileName</td>
+                    <td>@file.UploadData</td>
+                    <td>
+                        <a class="button" href="@Url.Action("DownloadFile", "CADFiles", new { fileName = file.FileName })">Скачать</a>
+                        @if (User.IsInRole("admin"))
+                        {
+                            <a class="button" href="@Url.Action("DeleteFile", "CADFiles", new { id = file.Id })
+                                " onclick="return confirm('Вы уверены, что хотите удалить этот файл?');">Удалить</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

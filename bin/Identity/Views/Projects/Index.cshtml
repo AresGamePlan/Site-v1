@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Project>
+@using Microsoft.AspNetCore.Authorization
+
+<div class="container-create"><h1>Projects</h1></div>
+<div class="container-create"><p> </p></div>
+
+<div class="table-container">
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Employer</th>
+        </tr>
+        @foreach (Project project in Model)
+        {
+            <tr>
+                <td>@project.Id</td>
+                <td>@project.Name</td>
+                <td><a class="button" asp-action="Project" asp-route-Id="@project.Id">Check</a></td>
+                <td>@project.NameEmployers</td>
+            </tr>
+        }
+    </table>
+</div>
+    @if (User.IsInRole("admin"))
+    {
+        <div class="container-create"><p> </p></div>
+        <div class="container-create">
+            <a asp-action="Create" class="button">
+                Create
+            </a>
+        </div>
+    }

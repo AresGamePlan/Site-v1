@@ -9,95 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Identity
 build_property.RootNamespace = Identity
-build_property.ProjectDir = C:\Users\Ares\Desktop\Projects\Identity\Identity\
+build_property.ProjectDir = C:\Users\Ares\Desktop\Projects\Identity\Site-v1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ares\Desktop\Projects\Identity\Identity
+build_property.MSBuildProjectDirectory = C:\Users\Ares\Desktop\Projects\Identity\Site-v1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Account/AccessDenied.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Account/Login.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Admin/Create.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Admin/Index.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Admin/Update.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Admin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/CADFiles/Index.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/CADFiles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0FERmlsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Home/Index.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Home/Privacy.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Home/Secured.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Home/Secured.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN1cmVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Projects/Create.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Projects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Projects/Index.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Projects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Projects/Project.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Projects/Project.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcUHJvamVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Projects/UploadFile.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Projects/UploadFile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcVXBsb2FkRmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Role/Create.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Role/Index.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Role/Update.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Role/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Shared/Error.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/_ViewImports.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/_ViewStart.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ares/Desktop/Projects/Identity/Identity/Views/Shared/_Layout.cshtml]
+[C:/Users/Ares/Desktop/Projects/Identity/Site-v1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-elpxs0ehl7

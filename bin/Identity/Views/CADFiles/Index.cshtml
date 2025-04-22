@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CADFile>
+@using Microsoft.AspNetCore.Authorization
+
+<div class="container-create">
+    <h2>Список файлов CAD</h2>
+</div>
+<div class="container-create">
+    <form asp-controller="CADFiles" asp-action="UploadFile" method="post" enctype="multipart/form-data">
+        <div class="input-field">
+            <input type="file" name="file" />
+            <button type="submit">Загрузить файл</button>
+        </div>
+    </form>
+</div>
+
+<div class="container-create">
+    <p> </p>
+</div>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Имя файла</th>
+                <th>Дата загрузки</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CADFile file in Model)
+            {
+                <tr>
+                    <td>@file.FileName</td>
+                    <td>@file.UploadData</td>
+                    <td>
+                        <a class="button" href="@Url.Action("DownloadFile", "CADFiles", new { fileName = file.FileName })">Скачать</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a class="button" href="@Url.Action("DeleteFile", "CADFiles", new { id = file.Id })
+                                " onclick="return confirm('Вы уверены, что хотите удалить этот файл?');">Удалить</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

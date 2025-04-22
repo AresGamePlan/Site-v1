@@ -1,0 +1,18 @@
+﻿@model ProjectAndCad
+
+<div class="container-create"><h1>Загрузка файла</h1></div>
+
+<div class="container-create"><p> </p></div>
+
+<div class="container-create">
+    <a asp-action="Project" class="button" asp-route-Id="@Model.project.Id">Back</a>
+</div>
+
+<div class="container-create"><p> </p></div>
+
+<div class="container-create">
+    <form asp-action="UploadFile" asp-route-Id="@Model.project.Id" method="post" enctype="multipart/form-data">
+        <input class="button" type="file" name="file" />
+        <button class="submit-button" type="submit">Загрузить отчет</button>
+    </form>
+</div>
